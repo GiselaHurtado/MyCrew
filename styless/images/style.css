@@ -48,3 +48,10 @@
  input[type="submit"]:hover {
      background-color: #D9D9D9;
  }
+ .footer2 {  
+    display: block;
+   height: auto;
+   margin-top: 800px;
+   justify-content: flex-end;
+   margin-right: 200px;
+  }  
