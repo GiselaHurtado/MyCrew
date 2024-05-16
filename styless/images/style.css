@@ -1,0 +1,11 @@
+.login-box {
+    width: 300px;
+            padding: 20px;
+            margin: 100px auto;
+            background: #C61CE1;
+            border: 1px solid #C61CE1;
+            border-radius: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input
