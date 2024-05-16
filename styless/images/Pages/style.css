@@ -6,7 +6,6 @@
 .footer2 {  
   display: block;
  height: auto;
- margin-top: 800px;
  justify-content: flex-end;
  margin-right: 200px;
 }
@@ -15,4 +14,11 @@
     width: auto;
     height: auto;
 }
-    
+.herramientas{
+    display: flex;
+    height: auto;
+    justify-content: flex-end;
+    margin-right: 200px;
+    margin-bottom: 0%;
+    margin-top: 100%;
+}
