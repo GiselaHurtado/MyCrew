@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styless/images/style.css">
     <title>Document</title>
-    <link rel="stylesheet" href="styless/images/style.css"
 </head>
-<header>
-    <img src="header 1.jpg" alt="header con informacion del equipo" class="header1"
-  </header> 
-<body> 
+
+<body>
+    <header>
+        <img src="header 1.jpg" alt="header con informacion del equipo" class="header1">
+    </header>
+
+    <div id="login-box">
+        <form action="/tu_endpoint_de_autenticacion" method="post">
+            <label for="username">Usuario</label><br>
+            <input type="text" id="username" name="username" required><br>
+
+            <label for="password">Contraseña</label><br>
+            <input type="password" id="password" name="password" required><br>
+
+            <input type="submit" value="Iniciar Sesión">
+        </form>
+    </div>
 </body>
+
 </html>
