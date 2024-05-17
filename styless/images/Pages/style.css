@@ -65,7 +65,7 @@ body {
     transition: opacity 0.5s ease;
     
     opacity: 0;
-    /* Inicialmente transparente */
+
 }
 
 
@@ -96,8 +96,8 @@ body {
 .frases-avatares {
     position: relative;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 70%;
+    transform: translate(-70%, -20%);
   }
   
   .frases-avatares span {
